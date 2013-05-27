@@ -3,7 +3,6 @@
   "version":"0.0.1",
   "author": "Simo Råman <simoraman@gmail.com>",
   "scripts": {
-    "preinstall":"npm i -g coffee-script",
     "test":"coffee -cj test/alltests.js test/*.coffee && node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
   },
   "dependencies": {
