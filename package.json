@@ -1,16 +1,18 @@
 {
   "name": "js-unit-test-template",
-  "version":"0.0.1",
+  "version": "0.0.1",
   "author": "Simo Råman <simoraman@gmail.com>",
   "scripts": {
-    "test":"coffee -cj test/alltests.js test/*.coffee && node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
+    "pretest": "node_modules/coffee-script/bin/coffee -cj test/alltests.js test/*.coffee",
+    "test": "node_modules/mocha-phantomjs/bin/mocha-phantomjs test/runner.html"
   },
   "dependencies": {
   },
   "devDependencies": {
-  	"mocha":"1.9.x",
-  	"phantomjs":"1.9.x",
-  	"mocha-phantomjs":"2.0.x",
-  	"chai":"1.6.x"
+    "coffee-script": "1.6.x",
+    "mocha": "1.9.x",
+    "phantomjs": "1.9.x",
+    "mocha-phantomjs": "2.0.x",
+    "chai": "1.6.x"
   }
 }
