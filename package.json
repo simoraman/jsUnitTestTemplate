@@ -1,6 +1,6 @@
 {
   "name": "js-unit-test-template",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Simo Råman <simoraman@gmail.com>",
   "scripts": {
     "pretest": "node_modules/coffee-script/bin/coffee -cj test/alltests.js test/*.coffee",
